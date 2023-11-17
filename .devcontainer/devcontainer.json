@@ -1,0 +1,30 @@
+{
+	"image": "moxiaoming/rust-dev:latest",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.codespaces",
+				"GitHub.vscode-pull-request-github",
+				"vscodevim.vim",
+				"usernamehw.errorlens",
+				"eamodio.gitlens",
+				"DavidAnson.vscode-markdownlint",
+				"yzhang.markdown-all-in-one",
+				"streetsidesoftware.code-spell-checker",
+				"ms-azuretools.vscode-docker"
+			],
+			"settings": {
+				"terminal.integrated.allowChords": false,
+				"terminal.integrated.sendKeybindingsToShell": true,
+				"remote.extensionKind": {
+					"vscodevim.vim": [
+						"ui"
+					],
+					"usernamehw.errorlens": [
+						"ui"
+					]
+				}
+			}
+		}
+	}
+}
